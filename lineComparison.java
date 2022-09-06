@@ -39,9 +39,9 @@ public class lineComparison
          else if(cmpr==0) {
                 System.out.println("line is equal to other line ");
          }
-    }
-   	    }
+      }
    }
-
 }
+
+
 
