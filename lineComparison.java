@@ -14,11 +14,21 @@ public class lineComparison
         int Y2=sc.nextInt();
         System.out.println("The first co-ordinate is (" +X1 +","+Y1+") ");
         System.out.println("The second co-ordinate is (" +X2 +","+Y2+") ");
-        double length2;
+        double length1=0;
+        double length2=0;
         int p3=(X2-X1)*(X2-X1);
         int p4=(Y2-Y1)*(Y2-Y1);
         length2=Math.sqrt(p3+p4);
         System.out.println("length of the line is "+length2);
+        Double L1new= length1;
+        Double L2new= length2;
+        boolean chk=L1new.equals(L2new);
+	    if(chk==true) {
+		System.out.println("These two lines are equal");
+	    }
+   	    else {
+		System.out.println("These two lines are NOT equal");
+   	    }
    }
 
 }
