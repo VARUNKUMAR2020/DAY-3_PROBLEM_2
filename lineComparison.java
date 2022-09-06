@@ -28,6 +28,18 @@ public class lineComparison
 	    }
    	    else {
 		System.out.println("These two lines are NOT equal");
+	 	int cmpr=L1new.compareTo(L2new);
+        if(cmpr<0) 
+        {
+                System.out.println("line is lesser than other line ");
+	    }
+        else if(cmpr>0) {
+                System.out.println("line is greater than other line ");
+        }
+         else if(cmpr==0) {
+                System.out.println("line is equal to other line ");
+         }
+    }
    	    }
    }
 
